@@ -1,0 +1,50 @@
+
+/* HEADER */
+.header{
+    background-color: #101446;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    transition: .5s;
+    display: inline-block;
+}
+.header ul li a:hover{
+    background-color: #000000;
+}
+
+/* BANER */
+.baner{
+    background-image: url(./images/intro-bg.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.baner-content{
+    margin-top: 32%;
+}
+.baner a{
+    background-color: #337AB7;
+}
+/* SERVICE */
+.service{
+    background-color: #BAC1F3;
+}
+
+.service a{
+    text-decoration: none;
+    background-color: #337AB7;
+}
+
+/* ABOUT */
+.about{
+    background-color: #C2D4EA;
+}
